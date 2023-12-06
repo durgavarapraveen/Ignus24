@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #000000;
+    
+    
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica')
+    url("./Fonts/Helvetica-Font/Helvetica-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
